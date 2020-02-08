@@ -19,4 +19,4 @@ jobs:
 
     - name: Build Release
       run: |
-        msbuild ConsoleApplication1.sln -m /t:Build /p:Configuration=Release;Platform="x86"
+        msbuild ConsoleApplication1.sln -m /t:Build /p:Configuration=Release;Platform="x86";
